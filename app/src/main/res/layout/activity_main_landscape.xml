@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/luz_landscape">
+    <TextView
+        android:id="@+id/txtGirar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aula 14"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/blackadder_itc"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gire a tela!"
+        android:layout_below="@id/txtGirar"
+        android:fontFamily="@font/blackadder_itc"
+        android:textSize="20dp"fwef
+        android:layout_marginTop="-10dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/labelTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o texto:"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/blackadder_itc"
+        android:textSize="20dp"
+        android:layout_above="@id/btnProx"
+        />
+    <TextView
+        android:id="@+id/txtSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Aqui!"
+        android:fontFamily="@font/blackadder_itc"
+        android:layout_above="@id/btnProx"
+        android:textSize="15dp"
+        android:layout_marginBottom="70dp"/>
+
+    <EditText
+        android:id="@+id/edTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/blackadder_itc"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:hint=""
+        android:layout_above="@id/btnProx"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"
+        />
+    <Button
+        android:id="@+id/btn2OK"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="ok"
+        android:layout_above="@id/btnProx"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"/>
+
+
+    <Button
+        android:id="@+id/btnProx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

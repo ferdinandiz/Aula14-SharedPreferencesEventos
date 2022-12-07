@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/luz_portrait">
+
+    <TextView
+        android:id="@+id/txtGirar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aula 14"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/blackadder_itc"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gire a tela!"
+        android:layout_below="@id/txtGirar"
+        android:fontFamily="@font/blackadder_itc"
+        android:textSize="45dp"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/edTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/blackadder_itc"
+        android:textSize="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Digite o texto"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_above="@id/btnOK"
+        />
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="OK"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btnProx"
+        android:layout_marginBottom="80dp"/>
+    <TextView
+        android:id="@+id/txtSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Aqui"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/blackadder_itc"
+        android:textSize="20dp"
+        android:layout_above="@id/btnProx"
+        />
+    <Button
+        android:id="@+id/btnProx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Avançar"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</RelativeLayout>
